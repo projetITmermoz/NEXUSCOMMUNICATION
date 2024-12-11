@@ -1,0 +1,52 @@
+h1
+{
+font-family: "Arial", cursive;
+font-size: 48px;
+}
+h2
+{
+font-family: "arial", Courier, monospace;
+font-size: 36px;
+} 
+nav{
+    border-bottom-width: 10px;
+}
+ul{
+    display: inline-block;
+}
+li{
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-align: middle;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+nav a{
+    height: 15px;
+    margin-top: 15px;
+	background: #fff;
+	border: 1px solid rgb(290, 290, 290);
+}
+
+nav a:hover{
+    background-color: rgb(10, 10, 10);
+    border-radius: 3px;
+    color: #e7ebf3;
+	font-size: 25px;
+}
+
+
+body
+{
+font-family: Fantasy;
+padding: 20px 40px;
+font-size: 20px;
+margin: 0;
+color: #000000;
+background: url(https://img.freepik.com/photos-premium/texture-marbre-blanc-fond-ecran-concept-arriere-plan_63047-1426.jpg);
+background-size: cover;
+background-position: center;
+}
